@@ -11,8 +11,11 @@ main()
 
     if (marks < 0 || marks > 100)
     {
-        cout << "Invalid Marks" << endl;
+        cout << "Invalid Marks...." << endl;
         return 0;
+    }
+    else{
+        cout<<"Marks is Invalid";
     }
 
     grade = (marks >= 90) ? 'A' : (marks >= 80) ? 'B'
